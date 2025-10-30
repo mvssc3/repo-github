@@ -36,6 +36,11 @@
 pip install fastapi uvicorn joblib pandas scikit-learn
 
 uvicorn app:app --reload --port 8000
+
+Abra no navegador:
+Docs interativas (Swagger): http://127.0.0.1:8000/docs
+Saúde rápida: http://127.0.0.1:8000/health
+Se /health responder {"ok": true, ...}, o modelo e o config_modelo.json foram carregados com sucesso.
 ```
 
 ### Endpoints
