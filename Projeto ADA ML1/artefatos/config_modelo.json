@@ -1,0 +1,32 @@
+{
+  "criacao_em": "2025-10-30 09:14:11",
+  "limiar_operacional": 0.1333,
+  "colunas_entrada": [
+    "NOME_CONC",
+    "RODOVIA",
+    "MARCO_QM",
+    "SENTIDO",
+    "DATA",
+    "HR_ACID",
+    "TIPO_ACID",
+    "CAUSA",
+    "METEORO",
+    "VISIB",
+    "VEÍC",
+    "TIPO_PISTA",
+    "DENOMINACAO",
+    "MUNICÍPIO",
+    "REGIONAL_DER",
+    "JURISDICAO",
+    "REG_ADM_SP",
+    "LATITUDE",
+    "LONGITUDE"
+  ],
+  "versoes": {
+    "python": "3.13.5",
+    "scikit_learn": "1.7.2",
+    "pandas": "2.3.0",
+    "numpy": "2.3.1"
+  },
+  "notas": "RandomForest baseline; class_weight=balanced; sem SMOTE; validação temporal nov–dez/2025."
+}
