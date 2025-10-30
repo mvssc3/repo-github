@@ -1,5 +1,3 @@
-## 12. Encerramento & Entrega
-
 **Modelo final adotado:** `RandomForest (class_weight='balanced', sem SMOTE)` — *baseline* mais estável.  
 **Limiar operacional:** **0,1333** (ponto de melhor F1 no teste), mantido no *hold-out* temporal.
 
@@ -7,7 +5,7 @@
 - **Teste aleatório:** AUC-ROC ≈ 0,787; AUC-PR ≈ 0,229; no limiar 0,1333 → *precisão* ≈ 0,329; *recall* ≈ 0,381.  
 - **Hold-out temporal (nov–dez/2025):** AUC-ROC ≈ 0,783; AUC-PR ≈ 0,196; no limiar 0,1333 → *precisão* ≈ 0,223; *recall* ≈ 0,395; *FPR* ≈ 3,57%.
 
-**Justificativa:** O *grid search* elevou discretamente o AUC-ROC, porém reduziu AUC-PR/recall no temporal após recalibrar o limiar, então mantivemos o *baseline*.
+**Justificativa:** O *grid search* elevou discretamente o AUC-ROC, porém reduziu AUC-PR/recall no temporal após recalibrar o limiar, então foi mantido o *baseline*.
 
 
 ```python
